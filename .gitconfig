@@ -1,0 +1,21 @@
+[user]
+	name = John Nilsen
+	email = nilsen340@gmail.com
+
+[alias]
+  	st = status -s
+  	ci = commit
+  	br = branch
+  	co = checkout
+  	df = diff
+  	lg = log -p
+	amend = commit --amend
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lolo = log --graph --decorate --pretty=oneline --abbrev-commit develop..
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
